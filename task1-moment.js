@@ -1,4 +1,3 @@
-
 // const format = 'YYYY-MMM-DD HH:mm'
 // const date = {
 //     // year:2011,
@@ -13,7 +12,6 @@
 // console.log(moment().set(date).format(format));
 // moment.locale('br')
 // console.log(moment().set(date).format(format));
-
 
 moment.locale('ru')
 const m = moment();
