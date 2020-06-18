@@ -5,14 +5,23 @@
   "main": "test/mocha-tests.js",
   "dependencies": {
     "chai": "^4.2.0",
+    "expect": "^26.0.1",
     "mocha-testdata": "^1.2.0",
-    "moment": "^2.26.0"
+    "modulejs": "^2.7.0",
+    "moment": "^2.26.0",
+    "nodejs": "0.0.0",
+    "nodemon": "^2.0.4",
+    "requirejs": "^2.3.6"
   },
   "devDependencies": {
     "mocha": "^8.0.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test-all": "mocha",
+    "test-hooks": "mocha test/hooks-example.js",
+    "test1": "mocha utils/utils.test.js",
+    "start": "node utils/utils.js",
+    "test-watch": "nodemon --exec \"npm run test1\""
   },
   "repository": {
     "type": "git",
