@@ -1,6 +1,4 @@
 const {add, sqr, app, User} = require('./utils');
-const {Pen} = require('./Pen');
-
 const assert = require('assert');
 const expect = require('expect');
 
@@ -51,10 +49,4 @@ it('checks greeting from class', () => {
     let user = new User("Eric")
     let res = user.greeting()
     expect(res).toBe('How do you do! Eric')
-})
-
-it('Pen class', () => {
-    let pen = new Pen(100, 2, "BLUE")
-    let res = pen.getColor()
-    expect(res).toBe("BLUE")
 })

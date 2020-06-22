@@ -20,6 +20,7 @@
     "test-all": "mocha",
     "test-hooks": "mocha test/hooks-example.js",
     "test1": "mocha utils/utils.test.js",
+    "test-pen": "mocha utils/pen.test.js",
     "start": "node utils/utils.js",
     "test-watch": "nodemon --exec \"npm run test1\""
   },
