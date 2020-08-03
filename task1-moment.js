@@ -17,3 +17,5 @@ moment.locale('ru')
 const m = moment();
 const format = 'YYYY-MMM-DD-dddd HH:mm'
 console.log(m.format(format));
+
+// End of code
