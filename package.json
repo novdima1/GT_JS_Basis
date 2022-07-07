@@ -6,7 +6,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha-testdata": "^1.2.0",
-    "moment": "^2.26.0"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "mocha": "^8.0.1"
